@@ -1,1 +1,1 @@
-{}
+json.loads(request.POST.get('mydata', '{}'))
